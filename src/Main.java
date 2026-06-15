@@ -36,18 +36,17 @@ void main() {
         System.out.println("Месяц " + month + ", сумма накоплений равна " + totalSavings + " рублей");
     }
     System.out.println("Задание 9");
-    int salary = 29000;
-    int total = 0;
-    for (int i = 0; i < 12; i++) {
-        total += salary;
-        total += total * 0.01;
-        System.out.println("Месяц " + (i + 1) + " сумма накоплений равна " + total + " рублей.");
+    int monthlySavingsOne =29000;
+    double totalSavingsOne = 0;
+    for (int monthOne =1; monthOne<=12; monthOne ++){
+        totalSavingsOne = totalSavingsOne * 1.01;
+        totalSavingsOne += monthlySavingsOne;
+        System.out.println("Месяц " + monthOne + ", сумма накоплений равна " + totalSavingsOne + " рублей");
     }
     System.out.println("Задание 10");
     int number = 2;
     for (int j = 1; j <= 10; j++) {
         System.out.println(number + "*" + j + "=" + number * j);
-
     }
 }
 
