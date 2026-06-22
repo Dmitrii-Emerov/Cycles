@@ -21,6 +21,7 @@ void main() {
     outputArray1[1] = maxSum;
     outputArray1[2] = minSum;
     outputArray1[3] = (float) averageSum;
+    System.out.println(Arrays.toString(inputArray1));
     System.out.println(Arrays.toString(outputArray1));
 
     System.out.println("Task 2");
@@ -31,6 +32,7 @@ void main() {
         outputArray2[index] = ((float) salary / 100) * 13;
         index++;
     }
+    System.out.println(Arrays.toString(inputArray2));
     System.out.println(Arrays.toString(outputArray2));
 
     System.out.println("Task 3");
@@ -65,7 +67,7 @@ void main() {
         }
     }
     int[] outputArray5 = {monthProfit}; // создаём массив с одним элементом
-    System.out.println("Количество прибыльных месяцев: " + Arrays.toString(outputArray5));
     System.out.println(Arrays.toString(inputArray5));
+    System.out.println("Количество прибыльных месяцев: " + Arrays.toString(outputArray5));
 
 }
