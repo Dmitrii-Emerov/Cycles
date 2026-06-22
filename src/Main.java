@@ -5,7 +5,7 @@ void main() {
     int[] inputArray1 = {100, 200, 300, 400, 500};
     float[] outputArray1 = new float[4];
     int sum = 0;
-    int maxSum = 0;
+    int maxSum = inputArray1[0];
     int minSum = inputArray1[0];
     for (int sumOne : inputArray1) {
         sum += sumOne;
