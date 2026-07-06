@@ -15,5 +15,4 @@ void main() {
     fullName = "Иванов Семён Семёнович";
     String fullNameWithoutYo = fullName.replace('ё', 'e');
     System.out.println("Данные ФИО сотрудника — " + fullNameWithoutYo);
-
 }
