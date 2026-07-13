@@ -27,5 +27,4 @@ public class Product {
         Product product = (Product) o;
         return id == product.id && Objects.equals(this.category, product.category);
     }
-
 }
