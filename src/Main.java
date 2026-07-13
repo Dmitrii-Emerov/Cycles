@@ -15,10 +15,10 @@ public class Main {
         Book warAndPeace = new Book("Война и мир", 1869, levTolstoy);
         System.out.println(warAndPeace.getTitle());
         System.out.println(warAndPeace.getYear());
-        System.out.println(warAndPeace.getNameOfAuthor());
+        System.out.println(warAndPeace.getNameOfAuthor().getName() + " " + warAndPeace.getNameOfAuthor().getLastname());
         System.out.println();
         warAndPeace.setYear(1880);
-        System.out.println(warAndPeace.getNameOfAuthor().getName() + " " + warAndPeace.getNameOfAuthor().getLastname());
+        System.out.println(warAndPeace.getYear());
         System.out.println("Меняем год книги - Война и мир");
         System.out.println();
         Book bookSmoking = new Book("Лёгкий способ бросить курить", 1985, allenCarr);
